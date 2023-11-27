@@ -8,11 +8,7 @@
     box-shadow: 0px 0px 10px 0px #1b2c46;
     
 }
-/* Alteramos las cajas*/
-body{
-    padding-top: 6em;
-    background-color: #e6e8ea;
-}
+
 .nav__li{
     
     display: block;
@@ -43,7 +39,11 @@ body{
     color: rgb(192, 115, 20);
 }
 
-
+/* Alteramos las cajas*/
+body{
+    padding-top: 6em;
+    background-color: #e6e8ea;
+}
 .space{
     position: relative;
     margin-top: 25px;
@@ -89,7 +89,8 @@ body{
     color: #1b2c46;
     margin-top: 0.2em;
 }
-.space__bienvenida h2{
+.space__bienvenida h2 a{
+    text-decoration: none;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 1.5em;
     text-align: center;
