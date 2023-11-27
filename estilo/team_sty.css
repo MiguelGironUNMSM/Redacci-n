@@ -1,37 +1,41 @@
-.nav {
+.nav{
+    
     background-color: #021431;
     width: 100vw;
     position: fixed;
     top: -0.1em;
     z-index: 100;
     box-shadow: 0px 0px 10px 0px #1b2c46;
+    
 }
 
-.nav__li {
+.nav__li{
+    
     display: block;
     padding: 0.1em;
     color: white;
     margin-right: 5.5em;
     text-align: center;
+    
 }
 
+/* Alteramos en texto de a*/
 .nav__li a {
     display: block;
     font-family: 'PT Sans Narrow', sans-serif;
     color: white;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 5.5em;
     text-align: center;
     font-weight: bold;
-}
 
-.nav__li i {
+}
+.nav__li i{
     box-sizing: border-box;
     text-align: center;
     margin-right: 0.3em;
 }
-
-.nav__li:hover > a {
+.nav__li:hover > a{
     color: rgb(192, 115, 20);
 }
 
