@@ -189,6 +189,10 @@ body {
     align-items: center;
 }
 
+.team-member:hover {
+    box-shadow: 0 0 20px #021431;
+}
+
 .team img {
     max-width: 100%;
     height: auto;
@@ -196,8 +200,15 @@ body {
     margin-bottom: 15px;
 }
 
-.team h3 {
+.team h3 a{
+    text-decoration: none;
     color: #333;
+    margin-bottom: 10px;
+}
+
+.team h3 a:hover{
+    text-decoration: none;
+    color: rgb(192, 115, 20);
     margin-bottom: 10px;
 }
 
