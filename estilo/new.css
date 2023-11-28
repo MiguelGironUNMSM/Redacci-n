@@ -42,35 +42,13 @@
 
 /* Contenedor principal */
 body {
-    padding-top: 6em;
+    padding-top: 8em;
     background-color: #e6e8ea;
 }
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.space__bienvenida {
-    text-align: center;
-}
-
-.space__bienvenida h1{
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 2.5em;
-    text-align: center;
-    color: #1b2c46;
-    margin-top: 0.2em;
-}
-.space__bienvenida h2 a{
-    text-decoration: none;
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 1em;
-    text-align: center;
-    color: #021431;
-}
-.space__bienvenida h2 a:hover{
-    color: rgb(192, 115, 20);
 }
 
 /* Estilo para los bloques de contenido */
@@ -81,12 +59,18 @@ body {
     max-width: 97%; /* Puedes ajustar el porcentaje según sea necesario */
     margin: 2em auto; /* Centra el bloque horizontalmente y agrega margen superior e inferior */
     padding: 2em;
-    /*outline: 2px solid #021027;*/
+    outline: 2px solid #021027;
     text-align: center;
     border-radius: 5%;
 }
 
-
+.team h2 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    color: #021027;
+    margin-bottom: 1em;
+}
 .team h3 {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 1.5em;
